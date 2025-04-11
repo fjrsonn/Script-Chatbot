@@ -1,0 +1,30 @@
+{
+  "intents": [
+      {
+          "tag": "saudacao",
+          "patterns": [
+              "Olá",
+              "Oi",
+              "Como vai?",
+              "Bom dia"
+          ],
+          "responses": [
+              "Oi! Como posso ajudá-lo?",
+              "Olá, tudo bem?",
+              "Bom dia! Como posso ajudá-lo?"
+          ]
+      },
+      {
+          "tag": "adeus",
+          "patterns": [
+              "Tchau",
+              "Adeus",
+              "Até logo"
+          ],
+          "responses": [
+              "Até logo! Tenha um ótimo dia!",
+              "Tchau! Volte sempre!"
+          ]
+      }
+  ]
+}
